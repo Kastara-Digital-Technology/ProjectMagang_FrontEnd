@@ -22,6 +22,8 @@
     </head>
     <body class="antialiased">
         <h1>COBA di COBA</h1>
+        <h2>titik
+        </h2>
         <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae adipisci voluptate itaque distinctio asperiores natus, mollitia quasi, nobis aperiam laudantium non velit enim facilis nostrum tempora aspernatur exercitationem possimus?</p>
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
