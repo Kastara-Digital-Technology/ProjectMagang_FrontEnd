@@ -407,6 +407,7 @@
 <body class="antialiased">
     <h1>Hallo, Text Baru</h1>
     <h2>addin tes</h2>
+    <h3>tambah lagi addin</h3>
     <div
         class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
         @if (Route::has('login'))
