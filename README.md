@@ -1,10 +1,10 @@
 
-Create/ Copy .Env file
+Create/ Copy .Env file <br><br>
 
-composer install
-php artisan key:generate
-php artisan migrate
-php artisan serve
+composer install <br>
+php artisan key:generate <br>
+php artisan migrate <br>
+php artisan serve<br><br>
 
 <hr /> 
 
