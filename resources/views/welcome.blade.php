@@ -21,7 +21,15 @@
         </style>
     </head>
     <body class="antialiased">
+<<<<<<< HEAD
     <h1>haloo</h1>
+    <h2>jokwi</h2>
+=======
+        <h1>COBA di COBA</h1>
+        <h2>titik
+        </h2>
+        <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae adipisci voluptate itaque distinctio asperiores natus, mollitia quasi, nobis aperiam laudantium non velit enim facilis nostrum tempora aspernatur exercitationem possimus?</p>
+>>>>>>> 2e8ece42ada299de61acd9accabec81fe892fad3
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
