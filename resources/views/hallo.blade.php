@@ -20,37 +20,8 @@
         <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content flex flex-col">
             <!-- Navbar -->
-
-            {{-- <div class="w-full fixed navbar shadow z-50 bg-base-300"> --}}
-            <div class="navbar bg-base-100">
-                <div class="flex-1">
-                    <a class="btn btn-ghost normal-case text-xl">Logo</a>
-                </div>
-                <div class="flex-none">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li tabindex="0">
-                            <a>
-                                Parent
-                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20"
-                                    height="20" viewBox="0 0 24 24">
-                                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                                </svg>
-                            </a>
-                            <ul class="p-2 bg-base-100">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
-                        <li><a>Item 3</a></li>
-                        <li><a>Item 3</a></li>
-                        <li><a>Item 3</a></li>
-                    </ul>
-                </div>
-            </div>
-            {{-- <div class="flex-none lg:hidden">
+            <div class="w-full fixed navbar shadow z-50 bg-base-300">
+                <div class="flex-none lg:hidden">
                     <label for="my-drawer-3" class="btn btn-square btn-ghost">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             class="inline-block w-6 h-6 stroke-current">
@@ -66,46 +37,104 @@
                         <li><a>Navbar Item 1</a></li>
                         <li><a>Navbar Item 2</a></li>
                     </ul>
-                </div> --}}
-            {{-- </div> --}}
+                </div>
+            </div>
             <!-- Page content here -->
-            <div class="hero min-h-screen bg-base-200 bg-white dark:bg-slate-800">
-                <div class="carousel w-full">
-                    <div id="slide1" class="carousel-item relative w-full">
-                        <img src="https://picsum.photos/seed/picsum/200/300" class="w-full h-500" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide4" class="btn btn-circle">❮</a>
-                            <a href="#slide2" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide2" class="carousel-item relative w-full">
-                        <img src="https://picsum.photos/seed/picsum/200/300" class="w-full w-full h-500" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide1" class="btn btn-circle">❮</a>
-                            <a href="#slide3" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide3" class="carousel-item relative w-full">
-                        <img src="https://picsum.photos/seed/picsum/200/300" class="w-full w-full h-500" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide2" class="btn btn-circle">❮</a>
-                            <a href="#slide4" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide4" class="carousel-item relative w-full">
-                        <img src="https://picsum.photos/seed/picsum/200/300" class="w-full w-full h-500" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide3" class="btn btn-circle">❮</a>
-                            <a href="#slide1" class="btn btn-circle">❯</a>
-                        </div>
+            {{-- Hero --}}
+            <div class="hero min-h-screen"
+                style="background-image: url(https://source.unsplash.com/random/1920x1080?money);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Tagihan</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <input type="text" placeholder="Nomor Tagihan" class="input w-full max-w-xs" />
+                        <button class="btn btn-primary">Cari</button>
                     </div>
                 </div>
             </div>
 
+            {{-- Konten --}}
             <div
                 class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center  py-4 sm:pt-0">
-                <div class="w-full max-w-md text-center">
-                    <h1 class="text-5xl font-bold "> Content</h1>
+                <div class="w-full max-w-6xl text-center">
+                    <h1 class="text-5xl font-bold mb-8">Blog</h1>
+
+                    <div class="flex flex-wrap">
+                        <div class="card w-96 bg-base-100 shadow-xl image-full mx-2">
+                            <figure><img src="https://source.unsplash.com/random/1920x1080?shoe/sig=1" alt="Shoes" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn btn-primary text-xs">Baca Selengkapnya</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card w-96 bg-base-100 shadow-xl image-full mx-2">
+                            <figure><img src="https://source.unsplash.com/random/1920x1080?shoe/sig=2" alt="Shoes" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose? lorem</p>
+                                <div class="card-actions justify-end pt-20">
+                                    <button class="btn btn-primary text-xs">Baca Selengkapnya</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card w-96 bg-base-100 shadow-xl image-full mx-2">
+                            <figure><img src="https://source.unsplash.com/random/1920x1080?shoe/sig=3" alt="Shoes" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn btn-primary text-xs">Baca Selengkapnya</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card w-96 bg-base-100 shadow-xl image-full mx-2">
+                            <figure><img src="https://source.unsplash.com/random/1920x1080?shoe/sig=1" alt="Shoes" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn btn-primary text-xs">Baca Selengkapnya</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card w-96 bg-base-100 shadow-xl image-full mx-2">
+                            <figure><img src="https://source.unsplash.com/random/1920x1080?shoe/sig=2" alt="Shoes" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose? lorem</p>
+                                <div class="card-actions justify-end pt-20">
+                                    <button class="btn btn-primary text-xs">Baca Selengkapnya</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card w-96 bg-base-100 shadow-xl image-full mx-2">
+                            <figure><img src="https://source.unsplash.com/random/1920x1080?shoe/sig=3" alt="Shoes" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn btn-primary text-xs">Baca Selengkapnya</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <p class="py-4 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias atque beatae,
                         consequatur dolor ea eum ex fuga incidunt iste iure laudantium magni maiores mollitia numquam
                         odio officia possimus quam quo ratione, recusandae repellendus, sequi sit soluta temporibus
