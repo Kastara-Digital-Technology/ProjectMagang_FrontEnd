@@ -31,12 +31,12 @@
                             </svg>
                         </label>
                     </div>
-                    <div class="flex-1 px-2 mx-2">Logo</div>
+                    <div class="flex-1 px-2 mx-2">Navbar Title</div>
                     <div class="flex-none hidden lg:block">
                         <ul class="menu menu-horizontal">
                             <!-- Navbar menu content here -->
-                            <li><a>Home</a></li>
-                            <li><a>About Us</a></li>
+                            <li><a>Navbar Item 1</a></li>
+                            <li><a>Navbar Item 2</a></li>
                         </ul>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                 <div class="hero min-h-screen bg-base-200 bg-white dark:bg-slate-800 ">
                     <div class="carousel w-full">
                         <div id="slide1" class="carousel-item relative w-full">
-                            <img src="https://picsum.photos/seed/picsum/200/300?random=1" class="w-full h-500" />
+                            <img src="https://picsum.photos/seed/picsum/200/300" class="w-full h-500" />
                             <div
                                 class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="#slide4" class="btn btn-circle">❮</a>
@@ -52,7 +52,7 @@
                             </div>
                         </div>
                         <div id="slide2" class="carousel-item relative w-full">
-                            <img src="https://picsum.photos/id/237/200/300?random=2" class="w-full h-500" />
+                            <img src="https://picsum.photos/seed/picsum/200/300" class="w-full w-full h-500" />
                             <div
                                 class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="#slide1" class="btn btn-circle">❮</a>
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         <div id="slide3" class="carousel-item relative w-full">
-                            <img src="https://picsum.photos/seed/picsum/200/300?random=3" class=" w-full h-500" />
+                            <img src="https://picsum.photos/seed/picsum/200/300" class="w-full w-full h-500" />
                             <div
                                 class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="#slide2" class="btn btn-circle">❮</a>
@@ -68,7 +68,7 @@
                             </div>
                         </div>
                         <div id="slide4" class="carousel-item relative w-full">
-                            <img src="https://picsum.photos/seed/picsum/200/300?random=4" class="\w-full h-500" />
+                            <img src="https://picsum.photos/seed/picsum/200/300" class="w-full w-full h-500" />
                             <div
                                 class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="#slide3" class="btn btn-circle">❮</a>
