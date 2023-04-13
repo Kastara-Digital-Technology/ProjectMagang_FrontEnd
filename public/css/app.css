@@ -1663,14 +1663,11 @@ html {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-<<<<<<< HEAD
-=======
 .avatar.placeholder > div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
->>>>>>> 64c5279033badfa8ad2710b50f5395a308dbc776
 .btn {
   display: inline-flex;
   flex-shrink: 0;
@@ -2050,8 +2047,6 @@ html {
   grid-column-start: 1;
   grid-row-start: 1;
 }
-<<<<<<< HEAD
-=======
 .hero-overlay {
   grid-column-start: 1;
   grid-row-start: 1;
@@ -2069,7 +2064,6 @@ html {
   gap: 1rem;
   padding: 1rem;
 }
->>>>>>> 64c5279033badfa8ad2710b50f5395a308dbc776
 .input {
   flex-shrink: 1;
   height: 3rem;
@@ -2205,8 +2199,6 @@ html {
 .swap input:indeterminate ~ .swap-indeterminate {
   opacity: 1;
 }
-<<<<<<< HEAD
-=======
 .btn-outline.btn-primary .badge {
   --tw-border-opacity: 1;
   border-color: hsl(var(--p) / var(--tw-border-opacity));
@@ -2238,7 +2230,6 @@ html {
   --tw-text-opacity: 1;
   color: hsl(var(--pc) / var(--tw-text-opacity));
 }
->>>>>>> 64c5279033badfa8ad2710b50f5395a308dbc776
 .btm-nav>* .label {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2926,12 +2917,6 @@ html {
 .-mt-px {
   margin-top: -1px;
 }
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-.mb-8 {
-  margin-bottom: 2rem;
-}
 .ml-0 {
   margin-left: 0px;
 }
@@ -2958,6 +2943,12 @@ html {
 }
 .mt-8 {
   margin-top: 2rem;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
 }
 .block {
   display: block;
@@ -3068,6 +3059,9 @@ html {
 .rounded-lg {
   border-radius: 0.5rem;
 }
+.rounded-xl {
+  border-radius: 0.75rem;
+}
 .border {
   border-width: 1px;
 }
@@ -3128,6 +3122,10 @@ html {
 .p-6 {
   padding: 1.5rem;
 }
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -3147,11 +3145,14 @@ html {
 .pt-0 {
   padding-top: 0px;
 }
-.pt-20 {
-  padding-top: 5rem;
+.pt-10 {
+  padding-top: 2.5rem;
 }
 .pt-8 {
   padding-top: 2rem;
+}
+.pt-20 {
+  padding-top: 5rem;
 }
 .text-left {
   text-align: left;
@@ -3174,13 +3175,10 @@ html {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-<<<<<<< HEAD
-=======
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
 }
->>>>>>> 64c5279033badfa8ad2710b50f5395a308dbc776
 .font-bold {
   font-weight: 700;
 }
@@ -3218,13 +3216,13 @@ html {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
-.text-neutral-content {
-  --tw-text-opacity: 1;
-  color: hsl(var(--nc) / var(--tw-text-opacity));
-}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-neutral-content {
+  --tw-text-opacity: 1;
+  color: hsl(var(--nc) / var(--tw-text-opacity));
 }
 .underline {
   text-decoration-line: underline;
