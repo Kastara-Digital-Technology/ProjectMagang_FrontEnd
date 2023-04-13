@@ -40,6 +40,7 @@
                 </div>
             </div>
             <!-- Page content here -->
+            
             {{-- Hero --}}
             <div class="hero min-h-screen"
                 style="background-image: url(https://source.unsplash.com/random/1920x1080?money);">
@@ -54,6 +55,7 @@
                     </div>
                 </div>
             </div>
+            {{-- Hero end --}}
 
             {{-- Konten --}}
             <div
