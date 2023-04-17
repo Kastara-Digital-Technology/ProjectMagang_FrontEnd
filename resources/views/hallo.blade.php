@@ -17,9 +17,21 @@
 
 <body class="">
     <div class="drawer">
+        {{-- Struktur Drawer
+        .drawer // The root container
+            ├── .drawer-toggle // A hidden checkbox to toggle the visibility of the sidebar
+            ├── .drawer-content // All your page content goes here
+            │    ├── // navbar
+            │    ├── // content
+            │    └── // footer
+            └── .drawer-side // Sidebar wrapper
+                ├── .drawer-overlay // A dark overlay that covers the whole page when the drawer is open
+                └── // Sidebar content (menu or anything) --}}
+
         <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
-        <div class="drawer-content flex flex-col">
-            <!-- Navbar -->
+
+        <div class="drawer-content">
+            <!-- Navbar Start -->
             <div class="w-full fixed navbar shadow z-50 bg-base-300">
                 <div class="flex-none lg:hidden">
                     <label for="my-drawer-3" class="btn btn-square btn-ghost">
@@ -34,58 +46,102 @@
                 <div class="flex-none hidden lg:block">
                     <ul class="menu menu-horizontal">
                         <!-- Navbar menu content here -->
-                        <li><a>Navbar Item 1</a></li>
-                        <li><a>Navbar Item 2</a></li>
-                        <li><a>Navbar Item 3</a></li>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
                     </ul>
                 </div>
             </div>
-            <!-- Page content here -->
+            <!-- Navbar End -->
 
-            {{-- Hero --}}
-            <div class="hero min-h-screen" style="background-image: url(img/hero.jpg);">
+            <!-- Hero Start -->
+            <div id="home" class="hero min-h-screen" style="background-image: url(img/hero.jpg);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
-                        <h1 class="mb-5 text-5xl font-bold">Tagihan</h1>
+                        <h1 class="mb-5 text-5xl font-bold text-accent">Tagihan</h1>
                         <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
                             exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                         <input type="text" placeholder="Nomor Tagihan" class="input w-full max-w-xs" />
-                        <button class="btn btn-primary">Cari</button>
+                        <button class="btn btn-accent">Cari</button>
                     </div>
                 </div>
             </div>
-            {{-- Hero end --}}
+            <!-- Hero End -->
 
-            {{-- Konten --}}
-            <div
-                class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center  py-4 sm:pt-0">
-                <div class="w-full max-w-6xl text-center">
-                    <h1 class="text-5xl font-bold mb-8">Blog</h1>
-
+            <!-- Blog Start -->
+            <section id="blog" class="pt-36 pb-32 min-h-screen">
+                <div class="container mx-auto">
+                    <div class="w-full px-4">
+                        <div class="max-w-xl mx-auto text-center mb-16">
+                            <h2 class="font-bold text-3xl text-accent mb-4 sm:text-4xl lg:text-5xl">Tulisan Terkini</h2>
+                            <p class="font-medium text-md text-base-content md:text-lg">Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Consectetur suscipit sed cupiditate dolores?</p>
+                        </div>
+                    </div>
                     <div class="flex flex-wrap">
-                        <div class="card w-96 bg-base-100 shadow-xl">
-                            <figure><img src="" alt="Shoes" />
-                            </figure>
-                            <div class="card-body">
-                                <h2 class="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div class="card-actions justify-end">
-                                    <button class="btn btn-primary">Buy Now</button>
+                        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                                <img src="img/blog/tech.jpg" alt="keyboard" class="w-full">
+                                <div class="py-8 px-6">
+                                    <h3>
+                                        <a href="#"
+                                            class="block mb-3 font-semibold text-xl text-base-300 hover:text-accent truncate">Cara
+                                            Menghindari Pencurian Data Pribadi</a>
+                                    </h3>
+                                    <p class="font-medium text-base text-base-content mb-6">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Molestias, numquam?</p>
+                                    <a href="#"
+                                        class="font-medium text-sm text-white bg-accent py-2 px-4 rounded-lg hover:opacity-80">Baca
+                                        Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                                <img src="img/blog/transportation.jpg" alt="transportation" class="w-full">
+                                <div class="py-8 px-6">
+                                    <h3>
+                                        <a href="#"
+                                            class="block mb-3 font-semibold text-xl text-base-300 hover:text-accent truncate">Manfaat
+                                            Bayar Pajak Bagi Negara</a>
+                                    </h3>
+                                    <p class="font-medium text-base text-base-content mb-6">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Molestias, numquam?</p>
+                                    <a href="#"
+                                        class="font-medium text-sm text-white bg-accent py-2 px-4 rounded-lg hover:opacity-80">Baca
+                                        Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                                <img src="img/blog/electric.jpg" alt="electric" class="w-full">
+                                <div class="py-8 px-6">
+                                    <h3>
+                                        <a href="#"
+                                            class="block mb-3 font-semibold text-xl text-base-300 hover:text-accent truncate">Dampak
+                                            Penggunaan Listrik Berlebih</a>
+                                    </h3>
+                                    <p class="font-medium text-base text-base-content mb-6">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Molestias, numquam?</p>
+                                    <a href="#"
+                                        class="font-medium text-sm text-white bg-accent py-2 px-4 rounded-lg hover:opacity-80">Baca
+                                        Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <p class="py-4 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias atque beatae,
-                        consequatur dolor ea eum ex fuga incidunt iste iure laudantium magni maiores mollitia numquam
-                        odio officia possimus quam quo ratione, recusandae repellendus, sequi sit soluta temporibus
-                        totam voluptatem!</p>
                 </div>
-            </div>
+            </section>
+            <!-- Blog End -->
         </div>
+        <!-- Blog End -->
 
-        {{-- Sidebar Start --}}
+        <!-- Footer Start -->
+        <!-- Footer End -->
+
+        <!-- Sidebar Start -->
         <div class="drawer-side">
             <label for="my-drawer-3" class="drawer-overlay"></label>
             <ul class="menu p-4 w-80 bg-base-100">
@@ -95,7 +151,7 @@
 
             </ul>
         </div>
-        {{-- Sidebar End --}}
+        <!-- Sidebar End -->
     </div>
 
 </body>
