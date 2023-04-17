@@ -36,11 +36,12 @@
                         <!-- Navbar menu content here -->
                         <li><a>Navbar Item 1</a></li>
                         <li><a>Navbar Item 2</a></li>
+                        <li><a>Navbar Item 2</a></li>
                     </ul>
                 </div>
             </div>
             <!-- Page content here -->
-            
+
             {{-- Hero --}}
             <div class="hero min-h-screen"
                 style="background-image: url(https://source.unsplash.com/random/1920x1080?money);">
