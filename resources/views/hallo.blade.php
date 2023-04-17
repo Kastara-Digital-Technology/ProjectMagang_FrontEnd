@@ -48,7 +48,7 @@
                         <!-- Navbar menu content here -->
                         <li><a href="#home">Beranda</a></li>
                         <li><a href="#blog">Blog</a></li>
-                        <li><a href="#kontak">Kontak</a></li>
+                        <li><a href="#contact">Kontak</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +62,8 @@
                         <h1 class="mb-5 text-5xl font-bold text-accent">Tagihan</h1>
                         <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
                             exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <input type="text" placeholder="Nomor Tagihan" class="input w-full max-w-xs" />
+                        <input type="text" placeholder="Nomor Tagihan"
+                            class="input w-full max-w-xs bg-slate-200 text-slate-700" />
                         <button class="btn btn-accent">Cari</button>
                     </div>
                 </div>
@@ -70,7 +71,7 @@
             <!-- Hero End -->
 
             <!-- Blog Start -->
-            <section id="blog" class="pt-36 pb-32 min-h-screen">
+            <section id="blog" class="pt-36 pb-32 min-h-screen bg-base-300">
                 <div class="container mx-auto">
                     <div class="w-full px-4">
                         <div class="max-w-xl mx-auto text-center mb-16">
@@ -137,12 +138,49 @@
             </section>
             <!-- Blog End -->
 
+            <!-- Contact Start -->
+            <section id="contact" class="pt-36 pb-32">
+                <div class="container mx-auto">
+                    <div class="w-full px-4">
+                        <div class="max-w-xl mx-auto text-center mb-16">
+                            <h2 class="font-bold text-3xl text-accent mb-4 sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
+                            <p class="font-medium text-md text-base-content md:text-lg">Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Consectetur suscipit sed cupiditate dolores?</p>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="w-full lg:w-2/3 lg:mx-auto">
+                            <div class="w-full px-4 mb-8">
+                                <label for="name" class="text-base font-bold text-accent">Nama</label>
+                                <input type="text" id="name"
+                                    class="w-full bg-slate-200 text-slate-700 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                            </div>
+                            <div class="w-full px-4 mb-8">
+                                <label for="email" class="text-base font-bold text-accent">Email</label>
+                                <input type="text" id="email"
+                                    class="w-full bg-slate-200 text-slate-700 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                            </div>
+                            <div class="w-full px-4 mb-8">
+                                <label for="message" class="text-base font-bold text-accent">Pesan</label>
+                                <textarea type="text" id="email"
+                                    class="w-full bg-slate-200 text-slate-700 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+                            </div>
+                            <div class="w-full px-4">
+                                <button
+                                    class="font-semibold text-base text-white bg-accent py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!-- Contact End -->
+
             <!-- Footer Start -->
             <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
                 <div class="grid grid-flow-col gap-4">
                     <a href="#home" class="link link-hover">Beranda</a>
                     <a href="#blog" class="link link-hover">Blog</a>
-                    <a href="#kontak" class="link link-hover">Kontak</a>
+                    <a href="#contact" class="link link-hover">Kontak</a>
                 </div>
                 <div>
                     <div class="grid grid-flow-col gap-4">
@@ -178,9 +216,9 @@
             <label for="my-drawer-3" class="drawer-overlay"></label>
             <ul class="menu p-4 w-80 bg-base-100">
                 <!-- Sidebar content here -->
-                <li><a>Sidebar Item 1</a></li>
-                <li><a>Sidebar Item 2</a></li>
-
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Kontak</a></li>
             </ul>
         </div>
         <!-- Sidebar End -->
