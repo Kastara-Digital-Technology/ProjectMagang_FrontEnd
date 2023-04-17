@@ -36,15 +36,14 @@
                         <!-- Navbar menu content here -->
                         <li><a>Navbar Item 1</a></li>
                         <li><a>Navbar Item 2</a></li>
-                        <li><a>Navbar Item 2</a></li>
+                        <li><a>Navbar Item 3</a></li>
                     </ul>
                 </div>
             </div>
             <!-- Page content here -->
 
             {{-- Hero --}}
-            <div class="hero min-h-screen"
-                style="background-image: url(https://source.unsplash.com/random/1920x1080?money);">
+            <div class="hero min-h-screen" style="background-image: url(img/hero.jpg);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
@@ -65,74 +64,14 @@
                     <h1 class="text-5xl font-bold mb-8">Blog</h1>
 
                     <div class="flex flex-wrap">
-                        <div class="card w-96 bg-base-100 shadow-xl image-full mx-2">
-                            <figure><img src="https://source.unsplash.com/random/1920x1080?shoe/sig=1" alt="Shoes" />
+                        <div class="card w-96 bg-base-100 shadow-xl">
+                            <figure><img src="" alt="Shoes" />
                             </figure>
                             <div class="card-body">
                                 <h2 class="card-title">Shoes!</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
                                 <div class="card-actions justify-end">
-                                    <button class="btn btn-primary text-xs">Baca Selengkapnya</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card w-96 bg-base-100 shadow-xl image-full mx-2">
-                            <figure><img src="https://source.unsplash.com/random/1920x1080?shoe/sig=2" alt="Shoes" />
-                            </figure>
-                            <div class="card-body">
-                                <h2 class="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose? lorem</p>
-                                <div class="card-actions justify-end pt-20">
-                                    <button class="btn btn-primary text-xs">Baca Selengkapnya</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card w-96 bg-base-100 shadow-xl image-full mx-2">
-                            <figure><img src="https://source.unsplash.com/random/1920x1080?shoe/sig=3" alt="Shoes" />
-                            </figure>
-                            <div class="card-body">
-                                <h2 class="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div class="card-actions justify-end">
-                                    <button class="btn btn-primary text-xs">Baca Selengkapnya</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card w-96 bg-base-100 shadow-xl image-full mx-2">
-                            <figure><img src="https://source.unsplash.com/random/1920x1080?shoe/sig=1" alt="Shoes" />
-                            </figure>
-                            <div class="card-body">
-                                <h2 class="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div class="card-actions justify-end">
-                                    <button class="btn btn-primary text-xs">Baca Selengkapnya</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card w-96 bg-base-100 shadow-xl image-full mx-2">
-                            <figure><img src="https://source.unsplash.com/random/1920x1080?shoe/sig=2" alt="Shoes" />
-                            </figure>
-                            <div class="card-body">
-                                <h2 class="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose? lorem</p>
-                                <div class="card-actions justify-end pt-20">
-                                    <button class="btn btn-primary text-xs">Baca Selengkapnya</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card w-96 bg-base-100 shadow-xl image-full mx-2">
-                            <figure><img src="https://source.unsplash.com/random/1920x1080?shoe/sig=3" alt="Shoes" />
-                            </figure>
-                            <div class="card-body">
-                                <h2 class="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div class="card-actions justify-end">
-                                    <button class="btn btn-primary text-xs">Baca Selengkapnya</button>
+                                    <button class="btn btn-primary">Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -145,6 +84,8 @@
                 </div>
             </div>
         </div>
+
+        {{-- Sidebar Start --}}
         <div class="drawer-side">
             <label for="my-drawer-3" class="drawer-overlay"></label>
             <ul class="menu p-4 w-80 bg-base-100">
@@ -153,8 +94,8 @@
                 <li><a>Sidebar Item 2</a></li>
 
             </ul>
-
         </div>
+        {{-- Sidebar End --}}
     </div>
 
 </body>
